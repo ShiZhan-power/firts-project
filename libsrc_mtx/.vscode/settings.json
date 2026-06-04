@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cc": "cpp",
+        "v4l2camera.h": "c",
+        "rk_mpi.h": "c",
+        "encode.h": "c"
+    }
+}

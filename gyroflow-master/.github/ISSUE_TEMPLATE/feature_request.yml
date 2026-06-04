@@ -1,0 +1,25 @@
+name: Feature Request
+description: Propose a new feature to the Gyroflow project.
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing feature request for this?
+      description: Please search to see if the feature has already been requested.
+      options:
+      - label: I have searched the existing requests
+        required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Description
+      placeholder: Tell us your idea!
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Please share any relevant files"
+  - type: markdown
+    attributes:
+      value: |
+        This can be motion data files, video files, screenshots etc. Smaller files can be zipped and uploaded here. Larger files can be shared using Google Drive, Dropbox, WeTransfer, mega.nz, or similar.

@@ -1,0 +1,23 @@
+[package]
+name = "shader_builder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+naga = { version = "24", features = ["spv-in", "spv-out", "wgsl-out", "glsl-out", "compact"] }
+regex = "1.11.1"
+
+[build-dependencies]
+spirv-builder = { git = "https://github.com/Rust-GPU/rust-gpu", rev = "854e9ba" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.release.build-override]
+opt-level = 3
+codegen-units = 16
+[profile.dev.build-override]
+opt-level = 3

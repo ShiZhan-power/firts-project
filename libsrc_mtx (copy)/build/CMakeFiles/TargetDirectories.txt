@@ -1,4 +1,0 @@
-/home/shizhan/5808/sz/195_202600519_eis/libsrc_mtx/build/CMakeFiles/kdemo_main.dir
-/home/shizhan/5808/sz/195_202600519_eis/libsrc_mtx/build/CMakeFiles/kdemo_test.dir
-/home/shizhan/5808/sz/195_202600519_eis/libsrc_mtx/build/CMakeFiles/edit_cache.dir
-/home/shizhan/5808/sz/195_202600519_eis/libsrc_mtx/build/CMakeFiles/rebuild_cache.dir
